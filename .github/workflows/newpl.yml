@@ -2,7 +2,8 @@ name: "First Pipeline"
 
 on:
   schedule:
-    - cron: '30 11 * * *'
+     - cron: '*/5 * * * *'
+   # - cron: '30 11 * * *'
   #push:
     #branches:
       #- main
